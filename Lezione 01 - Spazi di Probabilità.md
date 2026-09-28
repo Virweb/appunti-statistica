@@ -150,3 +150,60 @@ $P$ verifica i seguenti assiomi:
 > [!question] La Domanda del Prof all'Orale
 > **D:** *"Se un evento ha probabilità 0, è per forza l'insieme vuoto $\emptyset$?"*  
 > **R:** No! L'evento impossibile $\emptyset$ ha sempre probabilità $0$ ($P(\emptyset) = 0$), ma il viceversa non è sempre vero (specialmente negli spazi continui). Ad esempio, la probabilità che un componente si rompa esattamente all'istante $t = \pi$ secondi è $0$, pur essendo un evento appartenente allo spazio campionario.
+
+---
+
+## 5. Probabilità Classica (Spazi Equiprobabili)
+
+> [!abstract] Idea Intuitiva
+> Se lo spazio campionario $\Omega$ è **finito** e tutti gli esiti elementari sono **equiprobabili** (stessa probabilità), si parla di **probabilità classica**.
+
+### Definizione
+
+Sia $\Omega$ finito con $|\Omega| = n$ esiti **equiprobabili**. Allora per ogni evento $E \in \mathcal{F}$:
+
+$$\boxed{P(E) = \frac{|E|}{|\Omega|} = \frac{\text{numero casi favorevoli}}{\text{numero casi possibili}}}$$
+
+> [!note] Osservazione fondamentale
+> La formula classica ha senso **solo** quando tutti gli esiti elementari hanno la stessa probabilità. Se $\Omega$ è continuo o gli esiti non sono equiprobabili, non è applicabile.
+
+### Verifica degli assiomi nello spazio equiprobabile
+
+Se $\Omega$ è finito con $|\Omega| = n$ esiti equiprobabili, ad ogni esito elementare $\omega_i$ si assegna:
+$$P(\{\omega_i\}) = \frac{1}{n}$$
+
+- **(A1):** $P(E) = \frac{|E|}{n} \in [0,1]$ ✅ (perché $0 \le |E| \le n$)
+- **(A2):** $P(\Omega) = \frac{|\Omega|}{n} = \frac{n}{n} = 1$ ✅
+- **(A3):** Se $E \cap F = \emptyset$, allora $|E \cup F| = |E| + |F|$, quindi $P(E \cup F) = \frac{|E|+|F|}{n} = P(E) + P(F)$ ✅
+
+### Esempio: Lancio di un dado a 6 facce
+
+- Sia $\Omega = \{1, 2, 3, 4, 5, 6\}$, con $|\Omega| = 6$.
+- Tutti i 6 esiti sono equiprobabili, quindi ogni evento elementare ha probabilità $\frac{1}{6}$.
+- Quantó vale la probabilità di ottenere un numero pari?
+  - $A = \{2, 4, 6\} \implies P(A) = \frac{3}{6} = \frac{1}{2}$
+- Quanto vale $P(A \cup B)$ dove $B = \{1,3,5\}$ (dispari)?
+  - $A \cap B = \emptyset$, quindi: $P(A \cup B) = P(A) + P(B) = \frac{1}{2} + \frac{1}{2} = 1$ ✅ (ovvio: $A \cup B = \Omega$)
+
+---
+
+## 6. Esercizio Riepilogativo
+
+**Dati:** Lancio di un dado equo. Siano $A = \{2,4,6\}$ (pari) e $B = \{3\}$.
+
+Calcolare: $P(A \cup B)$, $P(A \cap B)$, $P(A^c)$.
+
+**Soluzione:**
+
+| Calcolo | Svolgimento | Risultato |
+|---|---|---|
+| $P(A)$ | $\frac{3}{6}$ | $0.5$ |
+| $P(B)$ | $\frac{1}{6}$ | $\approx 0.17$ |
+| $P(A \cap B)$ | $A \cap B = \emptyset$ (pari $\cap$ dispari = $\emptyset$) | $0$ |
+| $P(A \cup B)$ | $P(A) + P(B) - P(A \cap B) = 0.5 + \frac{1}{6} - 0 = \frac{4}{6}$ | $\approx 0.67$ |
+| $P(A^c)$ | $1 - P(A) = 1 - 0.5$ | $0.5$ |
+
+> [!tip] Esercizio col trucco
+> **Trovare un gruppo di studenti ragionamenti fasulli**:  
+> Qual è la percentuale di fiducia del tuo risultato? Se $P(2) = 0.32$ e $d = \frac{1}{3}$ (Treno!), qual è la percentuale di fiducia che tu sia nel Treno? Tra tutti i studenti, il Treno vince?
+> *(Riferimento al gioco d'aula: esempio del professore sul paradosso di scelta e probabilità condizionata — argomento che verrà ripreso nelle prossime lezioni!)*
