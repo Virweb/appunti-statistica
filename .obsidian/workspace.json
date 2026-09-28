@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Benvenuto.md",
-                "mode": "source",
+                "file": "Lezione 01 - Spazi di Probabilità.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Benvenuto"
+              "title": "Lezione 01 - Spazi di Probabilità"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Benvenuto.md",
+                "file": "Lezione 01 - Spazi di Probabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Benvenuto.md",
+                "file": "Lezione 01 - Spazi di Probabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Benvenuto.md",
+                "file": "Lezione 01 - Spazi di Probabilità.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,10 +188,11 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "b4408c3fd17c32a9",
+  "active": "3e4b962373c0df09",
   "lastOpenFiles": [
-    "Lezione 01 - Spazi di Probabilità.md",
+    "Materiale grezzo/WhatsApp Image 2026-09-28 at 10.51.36.jpeg",
     "Benvenuto.md",
+    "Lezione 01 - Spazi di Probabilità.md",
     "Materiale grezzo/WhatsApp Image 2026-09-28 at 10.45.40.jpeg.crswap",
     "Materiale grezzo/WhatsApp Image 2026-09-28 at 10.45.40.jpeg",
     "Materiale grezzo/WhatsApp Image 2026-09-28 at 10.26.27.jpeg",

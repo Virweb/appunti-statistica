@@ -207,3 +207,38 @@ Calcolare: $P(A \cup B)$, $P(A \cap B)$, $P(A^c)$.
 > **Trovare un gruppo di studenti ragionamenti fasulli**:  
 > Qual è la percentuale di fiducia del tuo risultato? Se $P(2) = 0.32$ e $d = \frac{1}{3}$ (Treno!), qual è la percentuale di fiducia che tu sia nel Treno? Tra tutti i studenti, il Treno vince?
 > *(Riferimento al gioco d'aula: esempio del professore sul paradosso di scelta e probabilità condizionata — argomento che verrà ripreso nelle prossime lezioni!)*
+
+---
+
+### Esercizio 2 — Lancio di 2 Dadi Equilibrati
+
+**Domanda:** Si lanciano 2 dadi equilibrati. Qual è la probabilità che la somma dei due risultati sia **al massimo 6**?
+
+**Step 1 — Costruiamo $\Omega$:**
+
+Lo spazio campionario è l'insieme di tutte le coppie ordinate $(\omega_1, \omega_2)$ con $\omega_1, \omega_2 \in \{1,\ldots,6\}$:
+$$\Omega = \big\{ (\omega_1, \omega_2) \mid \omega_1, \omega_2 = 1, \ldots, 6 \big\}, \quad |\Omega| = 36$$
+
+**Step 2 — Definiamo l'evento $E$:**
+
+$$E = \big\{\text{somma} \le 6\big\} = \big\{(\omega_1, \omega_2) \mid \omega_1 + \omega_2 \le 6\big\}$$
+
+Contando sistematicamente le coppie favorevoli:
+
+| Somma | Coppie favorevoli | Conteggio |
+|:---:|---|:---:|
+| 2 | (1,1) | 1 |
+| 3 | (1,2), (2,1) | 2 |
+| 4 | (1,3), (2,2), (3,1) | 3 |
+| 5 | (1,4), (2,3), (3,2), (4,1) | 4 |
+| 6 | (1,5), (2,4), (3,3), (4,2), (5,1) | 5 |
+| **Totale** | | **15** |
+
+$$|E| = 1+2+3+4+5 = 15$$
+
+**Step 3 — Calcoliamo:**
+
+$$\boxed{P(E) = \frac{|E|}{|\Omega|} = \frac{15}{36} = \frac{5}{12}}$$
+
+> [!danger] Trabocchetto classico
+> Non confondere "somma **al massimo** 6" con "almeno un dado vale 6" — sono eventi completamente diversi! Conta sempre le coppie ordinatamente e in modo sistematico, senza saltare casi.
