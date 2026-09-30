@@ -1,0 +1,198 @@
+=== PAGE 1 ===
+La rete come infrastruttura
+L’obiettivo è 
+nascondere la 
+complessità della 
+rete al progettista 
+dell’applicazione
+=== PAGE 2 ===
+Prof. Filippo Lanubile
+Architetture a livelli
+Stratificazione
+Protocolli di rete
+Famiglie e pile di protocolli
+Messaggi in una pila di protocolli
+Modello di riferimento ISO/OSI
+Architettura di Internet
+=== PAGE 3 ===
+Prof. Filippo Lanubile
+Stratificazione (layering)
+• La stratificazione di un sistema riduce la complessità mediante 
+livelli di astrazione
+• Ogni livello è composto da più entità (applicazioni, processi, 
+calcolatori, …)
+• L’obiettivo di un livello è di fornire servizi alle entità del livello 
+superiore, nascondendo il modo in cui i servizi sono realizzati
+• Livelli adiacenti comunicano tramite la loro interfaccia 
+Programmi applicativi
+Comunicazione tra processi
+Connettività tra calcolatori
+Hardware
+Programmi applicativi
+Comunicazione orientata 
+alla connessione
+Connettività tra calcolatori
+Hardware
+Comunicazione priva 
+di connessione
+=== PAGE 4 ===
+Prof. Filippo Lanubile
+Protocolli di Rete
+• Il livello N su un calcolatore 
+permette una 
+comunicazione con il livello 
+N di un altro calcolatore
+• Le entità di livello N (N>1) 
+per comunicare usano 
+servizi di livello N-1
+• Protocollo: accordo tra 
+partecipanti su come si 
+deve svolgere una 
+comunicazione
+• Protocollo di rete: insieme 
+di regole che specificano il 
+formato (sintassi) e il 
+significato (semantica) dei 
+messaggi scambiati tra 
+entità pari di una rete
+
+=== PAGE 5 ===
+Famiglia di protocolli: 
+rappresentazione mediante grafo/pila
+• Ogni protocollo è progettato per offrire un servizio 
+ai richiedenti, risolvendo un problema specifico
+• Un protocollo può a sua volta dipendere dai servizi 
+realizzati da altri protocolli
+• Una famiglia di protocolli è determinata da un 
+insieme di protocolli legati da dipendenze d’uso 
+(es. TCP/IP o Internet suite)
+– Rappresentazione mediante grafo
+• protocolli   nodi
+• dipendenze d’uso  archi orientati
+– Rappresentazione mediante pila
+• protocolli   blocchi rettangolari
+• dipendenze d’uso  implicite (blocco poggiato su un altro)
+non è possibile avere dipendenze circolari
+Prof. Filippo Lanubile
+=== PAGE 6 ===
+Prof. Filippo Lanubile
+Messaggi in una pila di protocolli
+Alla spedizione, ogni strato
+• Accetta un messaggio dal livello superiore
+• Aggiunge un’intestazione (header) ed elabora 
+ulteriormente (es. frammentazione)
+• Passa il messaggio risultante al livello 
+inferiore
+Alla ricezione, ogni strato
+• Riceve un messaggio dal livello 
+inferiore
+• Rimuove l’intestazione ed elabora 
+ulteriormente
+• Passa il messaggio risultante al livello 
+superiore
+
+=== PAGE 7 ===
+Prof. Filippo Lanubile
+Messaggi in una pila di protocolli (cont.)
+
+=== PAGE 8 ===
+Prof. Filippo Lanubile
+Modello di riferimento ISO/OSI
+• ISO = International 
+Organization for 
+Standards
+• OSI = Open Systems 
+Interconnection
+• Sistema aperto = con 
+caratteristiche di 
+interoperabilità
+• Il modello ISO/OSI è 
+una guida per il 
+progetto di una 
+famiglia di protocolli
+
+=== PAGE 9 ===
+Livelli del modello ISO/OSI
+Livello 7: applicazioni
+• come le parti di 
+un’applicazione distribuita 
+comunicano tra loro 
+Livello 6: presentazione 
+• come rappresentare i dati da 
+trasferire (es. formati di 
+codifica dei caratteri)
+Livello 5: sessione 
+• organizzazione del dialogo e 
+della sincronizzazione tra 
+programmi applicativi (es. 
+autenticazione)
+Livello 4: trasporto
+• Comunicazione end-to-end
+tra processi
+Livello 3: rete
+• Instradamento in una rete 
+commutata
+Livello 2: collegamento dati
+• Trasmissione affidabile di 
+pacchetti su collegamenti 
+diretti
+Livello 1: fisico
+• trasmissione di bit lungo un 
+canale di comunicazione
+– Rappresentazione fisica dello 
+0 e dell’1
+– Tipo e dimensione dei cavi
+– Tipo e dimensione dei 
+connettori
+Prof. Filippo Lanubile
+=== PAGE 10 ===
+Prof. Filippo Lanubile
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+Host
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+Host
+Network
+Data Link
+Physical
+Network
+Data Link
+Physical
+router router
+Nodi intermedi
+• Posso essere collocati a vari livelli
+– application gateway (livello 7)
+– layer-3 switch/router (livello 3)
+– bridge/layer-2 switch (livello 2)
+– repeater/hub (livello 1)
+=== PAGE 11 ===
+
+=== PAGE 12 ===
+Architettura di Internet
+• Nata per l’interconnessione di reti
+– Minimalismo e autonomia: per collegare le varie reti non occorrono 
+cambiamenti interni
+– Modello di servizio best effort: router stateless e controllo decentralizzato
+• Responsabile: Internet Engineering Task Force (http://www.ietf.org)
+• Documentazione degli standard: Request for Comments
+http://www.rfc-editor.org/rfcsearch.html
+Prof. Filippo Lanubile
+=== PAGE 13 ===
+Prof. Filippo Lanubile
+http://en.wikipedia.org/wiki/Internet_Protocol_Suite
+=== PAGE 14 ===
+Analisi di protocolli
+Prof. Filippo Lanubile
+http://www.wireshark.org/
+

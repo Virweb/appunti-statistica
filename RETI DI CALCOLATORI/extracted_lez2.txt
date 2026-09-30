@@ -1,0 +1,279 @@
+=== PAGE 1 ===
+Storia di Internet
+“Se si studiassero le cose svolgersi dall’origine, 
+anche qui come altrove se ne avrebbe una 
+visione quanto mai chiara”
+Aristotele, Politica I, 2, 1255a 
+Dott.ssa Teresa Mallardo
+Cosa accadde nel 1969?Cosa accadde nel 1969?
+21 luglio 1969: sbarco
+• 21 luglio 1969: sbarco 
+sulla Luna, Missione 
+Apollo 11
+Apollo 11
+Fu il solo evento importante?
+Nascita di “Internet”
+Dott.ssa Teresa Mallardo
+ 2
+=== PAGE 2 ===
+Contesto storicoContesto storico
+• Guerra fredda e contesa tecnologica tra Stati• Guerra fredda e contesa tecnologica tra Stati 
+Uniti e Unione Sovietica
+Dott.ssa Teresa Mallardo
+ 3
+Evento scatenanteEvento scatenante
+• 4 ottobre 1957: 
+lancio dello Sputnik 
+p
+da parte dell’Unione 
+Sovietica
+• 1958: risposta degli 
+USA
+USA
+– Killian e McElroy 
+danno vita all’ARPA 
+da o a a
+(Advanced Research 
+Projects Agency)
+Dott.ssa Teresa Mallardo
+ 4
+=== PAGE 3 ===
+MaMa …
+• 12 aprile 1961: l’Unione
+• 12 aprile 1961: l Unione 
+Sovietica porta nello 
+spazio il primo uomo
+spazio il primo uomo
+– Yuri Gagarin
+• Risposta degli USA
+– Nascita della NASA
+– Missione Apollo
+Dott.ssa Teresa Mallardo 5
+ARPAARPA
+Si cercò un nuovo “oggetto di studio parallelo”• Si cercò un nuovo “oggetto di studio parallelo”
+– La scienza dell’informazione e della comunicazione
+• Iniziò ad avere dei seri problemi di gestione a 
+causa dei diversi computer sparsi in varie sedi 
+che non potevano comunicare tra loro
+• 1966: Bob Taylor propose ad ARPA il 
+finanziamento di un progetto che consentisse 
+lo scambio di risorse tra i computer dei vari 
+laboratori universitari
+Dott.ssa Teresa Mallardo 6
+=== PAGE 4 ===
+I tre pionieri della commutazione 
+di pacchetto
+• 1959: Paul Baran
+– Presso la RAND Corporation, studia 
+un modo sicuro per poter trasmettere il
+un modo sicuro per poter trasmettere il 
+traffico vocale
+• 1959: Donald Davies
+– Presso il NPL di Londra, studia come 
+connettere apparecchi, terminali e 
+computer insieme con uno switching
+computer insieme con uno switching-
+sistem
+• 1961: Leonard Kleinrock
+– Ricercatore presso il MIT, pubblica il 
+primo lavoro sulla commutazione di 
+pacchetto
+pacchetto
+Dott.ssa Teresa Mallardo
+ 7
+Interface Message ProcessorInterface Message Processor
+• Il primo commutatore di
+• Il primo commutatore di 
+pacchetto
+Ideato da Lawrence
+• Ideato da Lawrence 
+Roberts con l’aiuto di 
+J C R Licklider presso il
+J.C.R. Licklider presso il 
+MIT
+• Realizzato dalla Bolt
+• Realizzato dalla Bolt 
+Beranek & Newman (BBN)
+• Utilizzato nel progetto
+• Utilizzato nel progetto 
+ARPAnet
+Dott.ssa Teresa Mallardo
+ 8
+=== PAGE 5 ===
+Le RFCLe RFC
+• ARPAnet decise che le proposte tecniche dovessero 
+essere pubbliche
+Lt f h i t R F C ( R t F C t )– Le proposte furono chiamate RFC (Request For Comments)
+• Il 7 aprile del 1969, Steve Crocker, del gruppo di 
+ricerca di Kleinrock all’UCLA scrisse la prima RFCricerca di Kleinrock all UCLA, scrisse la prima RFC 
+(RFC 001)
+– Network Control Protocol (NCP), il primo protocollo tra nodi () , pp
+ARPAnet per la comunicazione tra host
+• Le RFC vengono sottoposte all’Internet Engineering 
+()Task Force (IETF) per poi diventare degli standard 
+Internet
+Dott.ssa Teresa Mallardo 9
+ARPAnetARPAnet
+“rete dell’agenzia dei progetti di ricerca avanzata”
+• 2 settembre 1969: il suo 
+primo nodo viene installato 
+alla University California di
+alla University California di 
+Los Angeles (UCLA) sotto 
+la supervisione di Kleinrock
+la supervisione di Kleinrock
+• Nel dicembre 1969 è 
+formata da quattro nodi
+q
+– Università di Los Angeles, 
+Università di Santa Barbara, 
+Università dell’Utah Stanford
+Università dell Utah, Stanford 
+Research Institute
+Dott.ssa Teresa Mallardo 10
+=== PAGE 6 ===
+Primo esperimento di collegamentoPrimo esperimento di collegamento
+Kl i k d ll’UCLA t tò di• Kleinrock dall’UCLA tentò di 
+accedere al sistema XDS dello 
+SRI con un gruppo di studenti
+SRI con un gruppo di studenti 
+che seguiva le operazioni per 
+telefono con altri studenti presso 
+p
+lo SRI
+– Iniziò digitando la “L” che apparve 
+li d d l t t
+sul video del computer remoto
+– Continuò digitando la “O” ed anche 
+questa apparve
+qp p
+– Quando digitò la “G” il sistema 
+andò in tilt
+Dott.ssa Teresa Mallardo 11
+Evoluzione di ARPAnetEvoluzione di ARPAnet
+Ottobre 1980
+Settembre 1971
+Dott.ssa Teresa Mallardo
+ 12
+=== PAGE 7 ===
+Altre reti a commutazione di pacchettoAltre reti a commutazione di pacchetto
+ARPA hi• ARPAnet era una rete chiusa
+– Era necessario essere collegati ad uno dei suoi 
+IMPIMP
+• Così nacquero altre reti a commutazione di 
+pacchetto
+– ALOHAnet, università delle isole Hawaii
+–…
+• Perché non collegare tra loro tutte queste gq
+reti?
+Dott.ssa Teresa Mallardo 13
+Collegamento tra reti diverseCollegamento tra reti diverse
+Vi t C f (UCLA) R b t• Vinton Cerf (UCLA) e Robert 
+Kahn (BBN) lavorarono insieme 
+allo sviluppo di un protocollo per 
+pp p p
+la comunicazione tra reti diverse
+• 1973: pubblicarono un articolo 
+sul Transmission Control 
+Protocol (TCP)
+• 1978: TCP venne implementato
+• 1978: TCP venne implementato 
+e scomposto in TCP ed IP
+• 1983: TCP venne adottato 
+ufficialmente in ARPAnet al 
+posto di NCP
+Dott.ssa Teresa Mallardo 14
+=== PAGE 8 ===
+Esplosione della rete (1/3)
+• ARPAnet divise la rete in due sezioni
+MILNET hi tt ilit
+p( )
+– MILNET, chiusa e a carattere militare
+– ARPAnet, a carattere scientifico senza alcun limite di 
+connettività
+• 1982: John Postel definì il protocollo Simple Mail 
+Transfer Protocol (SMTP) per la posta elettronica
+• 1983: J. Postel, Craig Partridge e Paul Mockapetris 
+studiarono un sistema più intuitivo ed immediato per 
+id tifi i di ll t il D i N S tidentificare i nodi sulla rete, il Domain Name System 
+(DNS)
+1985: J Postel e J Reynolds definirono il protocollo• 1985: J. Postel e J. Reynolds definirono il protocollo 
+File Transfer Protocol (FTP) per il trasferimento dei 
+file tra hostfile tra host
+Dott.ssa Teresa Mallardo 15
+Esplosione della rete (2/3)Esplosione della rete (2/3)
+• National Science Foundation (NSF) investì 
+sulla realizzazione di una dorsale che 
+avrebbe consentito una velocità di 
+trasmissione di 56 Kbpsp
+• Questa rete inizialmente coinvolgeva le 
+Università di Princeton e di Pittsburgh ed altriUniversità di Princeton e di Pittsburgh ed altri 
+tre centri di ricerca
+• Ma poi l’aumento delle connessioni crebbe in• Ma poi l aumento delle connessioni crebbe in 
+maniera esponenziale
+Dott.ssa Teresa Mallardo 16
+=== PAGE 9 ===
+Esplosione della rete (3/3)
+1986: nacque la rete NSFnet
+Esplosione della rete (3/3)
+• 1986: nacque la rete NSFnet
+• 1989: NSFnet venne potenziata attraverso 
+una linea T1 a 1,544 Mbps
+• Anche ARPAnet decide di trasferire tutti i siti 
+alla NSFnet
+• 1990: Arpanet muore e nasce Internetp
+Dott.ssa Teresa Mallardo 17
+Nascita del World Wide WebNascita del World Wide Web
+• 1989: Tim Berners-Lee, scienziato 
+il d l C E R N ( C i l i Einglese del CERN (Consiglio Europeo 
+Ricerca Nucleare) di Ginevra, inventa 
+un sistema di accesso alle 
+informazioni tra più computer
+– per promuovere il lavoro collaborativo 
+nel campo della fisica delle particelle
+pp
+• Mediante un programma chiamato 
+Enquire
+programma che permette di creare
+– programma che permette di creare 
+una specie di rete di rapporti tra i 
+documenti
+Li i i t d V Bh
+• Lavoro iniziato da Vannevar Bush con 
+Memex e da Ted Nelson con Xanadu
+Dott.ssa Teresa Mallardo 18
+=== PAGE 10 ===
+WebWeb
+Un sistema ipermediale distribuito• Un sistema ipermediale distribuito 
+– Ipermediale: permette l’accesso interattivo a 
+collezioni di documenti di diverso tipo (testocollezioni di documenti di diverso tipo (testo, 
+figure, immagini, animazioni, audio, video) 
+collegati tra lorocollegati tra loro
+– Distribuito: documenti conservati su più server 
+remoti
+• Caratteristiche fondamentali:
+– HTTP HTML e URIHTTP, HTML e URI
+Dott.ssa Teresa Mallardo 19
+Primo browser graficoPrimo browser grafico
+• 1993: Marc Andreessen ed Eric Bina, dottorandi al 
+National Center for Supercomputing Applications 
+(NCSA) dell’Università dell’Illinois, svilupparono la 
+prima interfaccia grafica per accedere ai documentiprima interfaccia grafica per accedere ai documenti 
+presenti sul WWW chiamata MOSAIC
+– Distribuita gratuitamente a tutti gli utenti della rete permise aDistribuita gratuitamente a tutti gli utenti della rete permise a 
+Internet di diventare alla “portata di tutti”
+20
+Dott.ssa Teresa Mallardo
+=== PAGE 11 ===
+Diffusione del WebDiffusione del Web
+• 1994: Nasce Netscape Navigator, il primo 
+browser di successobrowser di successo
+• 1994: Nasce Yahoo
+• 1995: Nascono Lycos ed Altavista
+• 1996: La Microsoft rilascia la prima versione 
+di Explorer
+• ……
+Dott.ssa Teresa Mallardo 22
+=== PAGE 12 ===
+Dott.ssa Teresa Mallardo
+ 23
