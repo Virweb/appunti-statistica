@@ -116,12 +116,17 @@ Content-Length: 6821\r\n
 
 **Codici di stato principali:**
 | Codice | Significato |
+- INFORMAZIONE
 |---|---|
 | 200 OK | Successo |
+- REDIREZIONE
 | 301 Moved Permanently | Redirect permanente |
 | 304 Not Modified | Oggetto in cache valido |
+- ERRORE DEL CLIENTE
 | 400 Bad Request | Richiesta malformata |
 | 404 Not Found | Risorsa non trovata |
+- ERRORE DEL SERVER
+| 500 Internal Server Error |
 | 505 HTTP Version Not Supported | |
 
 ### Cookie
