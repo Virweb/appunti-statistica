@@ -1,4 +1,12 @@
+---
+tags: [statistica, probabilita, guida-esame, esercizi, formulario, crismale]
+titolo: "Guida Pratica agli Esercizi d'Esame e Strategie Risolutive"
+docente: "Prof. Vito Onofrio Crismale"
+---
+
 # Guida Pratica agli Esercizi d'Esame: Metodi Risolutivi, Strategie e Trabocchetti
+
+> 🏠 **Indice:** [[00 - INDICE STATISTICA]] | 📚 **Lezioni:** [[Lezione 01 - Spazi di Probabilità]] • [[Lezione 02 - Probabilità Condizionata, Teorema di Bayes ed Eventi Indipendenti]] • [[Lezione 03 - Prove di Bernoulli, Variabili Aleatorie e Funzione di Ripartizione]] • [[Lezione 04 - Variabili Aleatorie Discrete, Bernoulli e Binomiale]] • [[Lezione 05 - Variabile Aleatoria Geometrica e Mancanza di Memoria]] • [[Lezione 06 - Variabile Aleatoria di Poisson e Legge dei Casi Rari]]
 
 ---
 **Corso:** Calcolo delle Probabilità e Statistica  
@@ -221,3 +229,15 @@ Prima di consegnare lo scritto o rispondere all'orale, controlla:
 - [ ] La probabilità finale ottenuta appartiene all'intervallo $[0, 1]$? (Se viene $<0$ o $>1$, c'è un errore algebrico palese).
 - [ ] In problemi con percentuali di successo su $n$ persone (es. overbooking aereo), ho chiarito quale sia la variabile $X$, quanti siano i tentativi $n$ e quale sia $p$?
 - [ ] Nella funzione di ripartizione $F_X(t)$ ho verificato che sia non decrescente e che $\lim_{t \to +\infty} F_X(t) = 1$?
+
+---
+
+## 🔗 Link Interni (Mappa del Grafo)
+
+- 🏠 **Indice Generale:** [[00 - INDICE STATISTICA]]
+- 📘 **Fondamenti e Spazi Equiprobabili:** [[Lezione 01 - Spazi di Probabilità]]
+- 📘 **Probabilità Condizionata, Probabilità Totali, Bayes e Compleanni:** [[Lezione 02 - Probabilità Condizionata, Teorema di Bayes ed Eventi Indipendenti]]
+- 📘 **Prove di Bernoulli, Variabili Aleatorie, Legge $P_X$, FdR $F_X$ e Controesempio $P_X = P_Y$:** [[Lezione 03 - Prove di Bernoulli, Variabili Aleatorie e Funzione di Ripartizione]]
+- 📘 **Modelli di Bernoulli e Binomiale, Overbooking e Bayes+Binomiale:** [[Lezione 04 - Variabili Aleatorie Discrete, Bernoulli e Binomiale]]
+- 📘 **V.A. Geometrica e Dimostrazione Mancanza di Memoria:** [[Lezione 05 - Variabile Aleatoria Geometrica e Mancanza di Memoria]]
+- 📘 **V.A. di Poisson, Teorema Limite, Somma di Poisson e $Y = \min(X, 2)$:** [[Lezione 06 - Variabile Aleatoria di Poisson e Legge dei Casi Rari]]

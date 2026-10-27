@@ -1,7 +1,16 @@
+---
+tags: [statistica, probabilita, lezione-01, spazi-probabilita, kolmogorov, probabilita-classica]
+lezione: 1
+titolo: "Introduzione alla Probabilità e Spazi di Probabilità"
+docente: "Prof. Vito Onofrio Crismale"
+---
+
 # Lezione 01 - Introduzione alla Probabilità e Spazi di Probabilità
 
+> 🏠 **Indice:** [[00 - INDICE STATISTICA]] | **Successiva:** [[Lezione 02 - Probabilità Condizionata, Teorema di Bayes ed Eventi Indipendenti]] ➡️ | 🛠️ **Pratica:** [[Guida Pratica agli Esercizi d'Esame e Strategie Risolutive]]
+
 ---
-**Docente:** Vito Onofrio Crivellari (`vitoonofrio.crivellari@uniba.it`)  
+**Docente:** Vito Onofrio Crismale (`vitoonofrio.crismale@uniba.it`)  
 **Testi di riferimento:**
 - Ross, *Statistica per l'Ingegneria e le Scienze*
 - Baldi, *Calcolo delle Probabilità e Statistica*
@@ -206,7 +215,7 @@ Calcolare: $P(A \cup B)$, $P(A \cap B)$, $P(A^c)$.
 > [!tip] Esercizio col trucco
 > **Trovare un gruppo di studenti ragionamenti fasulli**:  
 > Qual è la percentuale di fiducia del tuo risultato? Se $P(2) = 0.32$ e $d = \frac{1}{3}$ (Treno!), qual è la percentuale di fiducia che tu sia nel Treno? Tra tutti i studenti, il Treno vince?
-> *(Riferimento al gioco d'aula: esempio del professore sul paradosso di scelta e probabilità condizionata — argomento che verrà ripreso nelle prossime lezioni!)*
+> *(Riferimento al gioco d'aula: esempio del professore sul paradosso di scelta e probabilità condizionata — argomento sviluppato in [[Lezione 02 - Probabilità Condizionata, Teorema di Bayes ed Eventi Indipendenti]]!)*
 
 ---
 
@@ -242,3 +251,12 @@ $$\boxed{P(E) = \frac{|E|}{|\Omega|} = \frac{15}{36} = \frac{5}{12}}$$
 
 > [!danger] Trabocchetto classico
 > Non confondere "somma **al massimo** 6" con "almeno un dado vale 6" — sono eventi completamente diversi! Conta sempre le coppie ordinatamente e in modo sistematico, senza saltare casi.
+
+---
+
+## 🔗 Link Interni
+
+- 🏠 **Indice Generale:** [[00 - INDICE STATISTICA]]
+- ➡️ **Lezione Successiva:** [[Lezione 02 - Probabilità Condizionata, Teorema di Bayes ed Eventi Indipendenti]]
+- 🔗 **Estensione alle Variabili Reali:** [[Lezione 03 - Prove di Bernoulli, Variabili Aleatorie e Funzione di Ripartizione]] *(trasferimento dello spazio $(\Omega, \mathcal{F}, P)$ su $(\mathbb{R}, \mathcal{P}(\mathbb{R}), P_X)$)*
+- 🛠️ **Strategie d'Esame:** [[Guida Pratica agli Esercizi d'Esame e Strategie Risolutive]]
